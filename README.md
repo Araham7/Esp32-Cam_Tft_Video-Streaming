@@ -43,6 +43,8 @@ This document explains how two projects work that enable **10 FPS video streamin
 | SCK     | GPIO 18   | SPI clock line       |
 | LED     | 3.3V      | Backlight (optional) |
 
+> Note: Ensure common ground between ESP32-CAM, ESP32 module, and TFT display.
+
 ---
 
 ## **Project 1: ESP32-CAM → TFT Display Streaming**
@@ -222,6 +224,6 @@ graph TD
 
 ## **License**
 
-This project is licensed under the MIT License. You are free to use, copy, modify, and distribute the work for personal or commercial purposes with proper attribution to the author.
+This project is licensed under the [MIT License](LICENSE). You are free to use, copy, modify, and distribute the work for personal or commercial purposes with proper attribution to the author.
 
 **Author:** Araham Abeddin
